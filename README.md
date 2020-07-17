@@ -1,4 +1,4 @@
-# i3blocks-airpods
+# i3blocks-airpods 💃🕺
 i3blocks script for airpods  
 ## controls
 left click: connect to airpods  
