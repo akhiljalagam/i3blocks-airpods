@@ -1,10 +1,10 @@
 # i3blocks-airpods 💃🕺
 i3blocks script for airpods  
-## controls
+## Controls
 left click: connect to airpods  
 middle: toggle A2DP or HSP/HFP  
 right click: disconnect airpods
-## showcase
+## Showcase
 ![i3blocks airpods](showcase.gif)
 
 ## Dependencies
@@ -16,7 +16,7 @@ right click: disconnect airpods
    3.git clone https://github.com/rilmodem/ofono.git /opt/ofono  
 ```
 
-## tweak the script
+## Tweak the script for first time
 replace MAC and card name in the script
 ```
 AIRPDS_MAC='4C:6B:E8:80:46:84' # it should be somewhere in blueman-manager  
@@ -26,6 +26,7 @@ AIRPODS_NAME='bluez_card.4C_6B_E8_80_46_84' # you can find this using 'pactl lis
 ## i3blocks.conf
 ```
 [airpods]
+command=/path/to/airpods
 label=🎧 
 interval=10
 ```
@@ -36,7 +37,7 @@ you should first pair your airpods using blueman and trust them for god's sake
 ## Let's Discuss
 https://www.reddit.com/r/i3wm/comments/hsx3l3/got_airpods_lets_setup_i3blocks_for_it/
 
-Contributions are welcome
+## Contributions are welcome
 
 ## Say thanks:
   
