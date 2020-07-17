@@ -36,7 +36,7 @@ interval=10
 ## Notice
 you should first pair your airpods using blueman and trust them for god's sake
 
-## Let's Discuss
+## Discussion
 https://www.reddit.com/r/i3wm/comments/hsx3l3/got_airpods_lets_setup_i3blocks_for_it/
 
 ## Contributions are welcome
