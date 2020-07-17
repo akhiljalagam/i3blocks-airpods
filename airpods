@@ -1,0 +1,60 @@
+#!/bin/bash
+
+# Author: Akhil Jalagam
+# I love i3wm so do airpods 😃
+
+# dependencies
+#   1.ofono.service
+#   2.ofono-phonesim
+#       sudo add-apt-repository ppa:smoser/bluetooth
+#       sudo apt-get install ofono-phonesim
+#   3.git clone https://github.com/rilmodem/ofono.git /opt/ofono
+
+## i3blocks.conf
+# [airpods]
+# label=🎧 
+# interval=10
+
+# 😠 don't be a noobie... replace MAC and card name here first
+AIRPDS_MAC='4C:6B:E8:80:46:84' # it should be somewhere in blueman-manager
+AIRPODS_NAME='bluez_card.4C_6B_E8_80_46_84' # you can find this using 'pactl list cards' command
+
+case "$BLOCK_BUTTON" in
+    1)
+        bluetooth on
+        sleep 3
+        bluetoothctl connect $AIRPODS_MAC
+        sudo systemctl start ofono
+        nohup ofono-phonesim -p 12345 /usr/share/phonesim/default.xml &> /tmp/ofono-phonesim.nohup &
+        /opt/ofono/test/enable-modem /phonesim
+        pactl set-card-profile $AIRPODS_NAME headset_head_unit
+    ;;
+    2)
+        cur=`pactl list | grep -A 30 $AIRPODS_NAME | grep 'Active Profile:' | cut -d' ' -f3`
+        if [[ $cur == "a2dp_sink" ]]; then
+            pactl set-card-profile $AIRPODS_NAME headset_head_unit
+        else
+            pactl set-card-profile $AIRPODS_NAME a2dp_sink
+        fi
+    ;;
+    3)
+        /opt/ofono/test/disable-modem /phonesim
+        killall ofono-phonesim
+        sudo systemctl stop ofono
+        bluetoothctl disconnect $AIRPODS_MAC
+        #bluetooth off
+    ;;
+esac
+
+card_no=`pactl list cards short | grep $AIRPODS_NAME | awk '{print $1}'`
+active_profile=`pactl list cards | sed -n -e "/Card #\$card_no/,/Card/ p" | grep 'Active Profile:' | awk '{print $3}'`
+
+if pactl list | grep $AIRPODS_NAME &>>/dev/null; then
+    echo "$active_profile"
+    echo "active_profile"
+    echo "#11ff00"
+else
+    echo "off"
+    echo "off"
+    echo "#a6a6a6"
+fi
