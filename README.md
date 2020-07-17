@@ -23,6 +23,9 @@ label=🎧
 interval=10
 ```
 
+## Notice
+you should first pair your airpods using blueman and trust them
+
 ## Say thanks:
   
   Just letting me know you're enjoying this plugin is a great way to say thanks!
