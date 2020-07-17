@@ -1,5 +1,5 @@
 # i3blocks-airpods 💃🕺
-i3blocks script for managing airpods and airpods pro.
+i3blocks script for managing airpods and airpods pro.  
 I love airpods 😃
 
 ## Controls
