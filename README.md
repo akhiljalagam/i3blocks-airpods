@@ -21,7 +21,7 @@ i3blocks script for managing airpods and airpods pro
 ## Tweak the script for first time
 replace MAC and card name in the script
 ```
-AIRPDS_MAC='4C:6B:E8:80:46:84' # it should be somewhere in blueman-manager  
+AIRPODS_MAC='4C:6B:E8:80:46:84' # it should be somewhere in blueman-manager  
 AIRPODS_NAME='bluez_card.4C_6B_E8_80_46_84' # you can find this using 'pactl list cards' command  
 ```
 
