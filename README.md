@@ -1,9 +1,9 @@
 # i3blocks-airpods 💃🕺
 i3blocks script for airpods  
 ## Controls
-left click: connect to airpods  
-middle: toggle A2DP or HSP/HFP  
-right click: disconnect airpods
+<b>left click:  </b> connect to airpods  
+<b>middle click:</b> toggle A2DP or HSP/HFP  
+<b>right click: </b> disconnect airpods
 ## Showcase
 ![i3blocks airpods](showcase.gif)
 
