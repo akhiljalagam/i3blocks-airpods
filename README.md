@@ -11,7 +11,7 @@ i3blocks script for managing airpods and airpods pro
 
 ## Dependencies
 ```
-   1.ofono.service  
+   1.ofono.service  # systemd
    2.ofono-phonesim  
        sudo add-apt-repository ppa:smoser/bluetooth  
        sudo apt-get install ofono-phonesim  
@@ -34,7 +34,7 @@ interval=10
 ```
 
 ## Notice
-you should first pair your airpods using blueman and trust them for god's sake
+you should first pair your airpods using blueman and trust them
 
 ## Discussion
 https://www.reddit.com/r/i3wm/comments/hsx3l3/got_airpods_lets_setup_i3blocks_for_it/
