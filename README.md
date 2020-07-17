@@ -8,11 +8,13 @@ right click: disconnect airpods
 ![i3blocks airpods](showcase.gif)
 
 ## Dependencies
+```
    1.ofono.service  
    2.ofono-phonesim  
        sudo add-apt-repository ppa:smoser/bluetooth  
        sudo apt-get install ofono-phonesim  
    3.git clone https://github.com/rilmodem/ofono.git /opt/ofono  
+```
 
 ## i3blocks.conf
 ```
