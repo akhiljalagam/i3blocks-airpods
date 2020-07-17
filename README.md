@@ -24,7 +24,7 @@ interval=10
 ```
 
 ## Notice
-you should first pair your airpods using blueman and trust them
+you should first pair your airpods using blueman and trust them for god's sake
 
 ## Say thanks:
   
