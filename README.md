@@ -16,6 +16,13 @@ right click: disconnect airpods
    3.git clone https://github.com/rilmodem/ofono.git /opt/ofono  
 ```
 
+## tweak script
+😠 don't be a noobie... replace MAC and card name in the script first  
+```
+AIRPDS_MAC='4C:6B:E8:80:46:84' # it should be somewhere in blueman-manager  
+AIRPODS_NAME='bluez_card.4C_6B_E8_80_46_84' # you can find this using 'pactl list cards' command  
+```
+
 ## i3blocks.conf
 ```
 [airpods]
