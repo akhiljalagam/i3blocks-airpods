@@ -1,6 +1,6 @@
 # i3blocks-airpods 💃🕺
 i3blocks script for managing airpods and airpods pro.  
-![i3blocks airpods](showcase.png)
+![i3blocks airpods](screenshot.png)
 
 ## Controls
 <b>left click:  </b> connect to airpods  
@@ -8,7 +8,7 @@ i3blocks script for managing airpods and airpods pro.
 <b>right click: </b> disconnect airpods
 
 ## Showcase
-![i3blocks airpods](showcase.gif)
+![i3blocks airpods](sscreencast.gif)
 
 ## Dependencies
 ```
