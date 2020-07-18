@@ -8,7 +8,7 @@ i3blocks script for managing airpods and airpods pro.
 <b>right click: </b> disconnect airpods
 
 ## Showcase
-![i3blocks airpods](sscreencast.gif)
+![i3blocks airpods](screencast.gif)
 
 ## Dependencies
 ```
