@@ -1,5 +1,6 @@
 # i3blocks-airpods 💃🕺
 i3blocks script for managing airpods and airpods pro.  
+![i3blocks airpods](showcase.png)
 
 ## Controls
 <b>left click:  </b> connect to airpods  
