@@ -3,7 +3,7 @@ i3blocks script for managing airpods and airpods pro.
 
 ## Controls
 <b>left click:  </b> connect to airpods  
-<b>middle click:</b> toggle A2DP or HSP/HFP  
+<b>middle click:</b> toggle A2DP(used for music) or HSP/HFP(used for calls)   
 <b>right click: </b> disconnect airpods
 
 ## Showcase
