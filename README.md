@@ -1,3 +1,5 @@
+![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/i3blocks?style=for-the-badge)
+
 # i3blocks-airpods 💃🕺
 i3blocks script for managing airpods and airpods pro.  
 ![i3blocks airpods](screenshot.png)
