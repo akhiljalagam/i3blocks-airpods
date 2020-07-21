@@ -1,7 +1,7 @@
-![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/i3blocks?style=for-the-badge)
-![Mastodon Follow](https://img.shields.io/mastodon/follow/28693?domain=https%3A%2F%2Fmastodon.online&style=for-the-badge)
-![Keybase PGP](https://img.shields.io/keybase/pgp/akhiljalagam?style=for-the-badge)
-![Keybase BTC](https://img.shields.io/keybase/btc/akhiljalagam?style=for-the-badge)
+![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/i3blocks?style=flat-square)
+![Mastodon Follow](https://img.shields.io/mastodon/follow/28693?domain=https%3A%2F%2Fmastodon.online&style=flat-square)
+![Keybase PGP](https://img.shields.io/keybase/pgp/akhiljalagam?style=flat-square)
+![Keybase BTC](https://img.shields.io/keybase/btc/akhiljalagam?style=flat-square)
 
 # i3blocks-airpods 💃🕺
 i3blocks script for managing airpods and airpods pro.  
