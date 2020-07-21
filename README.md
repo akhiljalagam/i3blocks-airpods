@@ -39,7 +39,7 @@ label=🎧
 interval=10
 ```
 
-## Notice
+## Note
 you should first pair your airpods using blueman and trust them
 
 ## Discussion
