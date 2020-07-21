@@ -40,7 +40,7 @@ interval=10
 ```
 
 ## Note
-you should first pair your airpods using blueman and trust them
+you should first pair your airpods using blueman and trust them to use this script
 
 ## Discussion
 https://www.reddit.com/r/i3wm/comments/hsx3l3/got_airpods_lets_setup_i3blocks_for_it/
