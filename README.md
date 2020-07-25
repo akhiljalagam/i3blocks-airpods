@@ -1,7 +1,7 @@
-![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/i3blocks?style=flat-square)
+<!-- ![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/i3blocks?style=flat-square)
 ![Keybase PGP](https://img.shields.io/keybase/pgp/akhiljalagam?style=flat-square)
 ![Keybase BTC](https://img.shields.io/keybase/btc/akhiljalagam?style=flat-square)
-
+ -->
 # i3blocks-airpods 💃🕺
 i3blocks script for managing airpods and airpods pro.  
 ![i3blocks airpods](screenshot.png)
